@@ -3,8 +3,8 @@ This project is a NYU Abu Dhabi Economics Capstone Project studying the impact o
 
 # Methodology 
 1. Data Collection: The transcripts of earnings conference calls were obtained from Capital IQ covering a period from 2004 to 2018. The data includes nearly 78,000 calls across 4,978 firms. The transcripts were separated into 2 sections: Presentation and Question & Answers. 
-2. Tagging Interactions: Each speaker's contributions during the Q&A sessions were tagged to identify who is speaking to whom. This tagging allows for the construction of interaction terms that represent the dialogue between executives and financial analysts.
-3. Sentiment Analysis: Using the Loughran and McDonald word list, sentiment measures were calculated based on positive, negative, and uncertain words spoken by executives and analysts.
+2. Tagging Interactions: Each speaker's contributions during the Q&A sessions were tagged to identify who is speaking to whom. This tagging allows for the construction of interaction terms that represent the dialogue between executives and financial analysts. For example, if analyst, Bob Barker, asks the first question he will be tagged as 1. The executive answering Barker will also be marked as 1. 
+3. Sentiment Analysis: Using the Loughran and McDonald word list, sentiment measures were calculated based on positive, negative, uncertain, strong modal, and weak modal words spoken by executives and analysts.
 4. Statistical Analysis: A pooled OLS regression model was employed to analyze the impact of gender on sentiment and vagueness in both management discussion (MD) and Q&A sessions.
 
 # Key Contributions
